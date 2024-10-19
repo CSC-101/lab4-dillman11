@@ -33,7 +33,7 @@ def are_in_positive_quadrant(points: list) -> list:
 
 # Part 4
 def distance(point1: Point, point2: Point) -> float:
-    return float(math.sqrt(pow((point2.x-point1.x),2) + pow((point2.y-point1.y),2)))
+    return round(float(math.sqrt(pow((point2.x-point1.x),2) + pow((point2.y-point1.y),2))),2)
 
 
 # Part 5

@@ -55,14 +55,14 @@ class TestCases(unittest.TestCase):
         input1 = data.Point(5,10)
         input2 = data.Point(15,30)
         result = lab4.distance(input1, input2)
-        expected = math.sqrt(500)
+        expected = 22.36
         self.assertEqual(expected, result)
 
     def test_distance_2(self):
         input1 = data.Point(16,8)
         input2 = data.Point(-5,53)
         result = lab4.distance(input1, input2)
-        expected = math.sqrt(2466)
+        expected = 49.66
         self.assertEqual(expected, result)
 
     # Part 5
